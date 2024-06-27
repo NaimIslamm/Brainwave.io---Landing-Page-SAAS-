@@ -1,0 +1,227 @@
+/* ----FONT UPLOAD ----*/
+@font-face {
+    font-family: "gilroy";
+    src: url(../fonts/Gilroy-Regular.ttf);
+    src: url(../fonts/Gilroy-Regular.otf);
+    src: url(../fonts/Gilroy-Regular.woff);
+    src: url(../fonts/Gilroy-Regular.woff2);
+}
+@font-face {
+    font-family: "gilroy-bold";
+    src: url(../fonts/Gilroy-Bold.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+/* ----FONT UPLOAD ----*/
+/*------ RESET CSS -------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*---- RESET CSS---- */
+/* --------------COMMON CSS---------------- */
+body{
+    font-family: "gilroy";
+}
+/* -----------Layout CSS --------*/
+.container{
+    max-width: 1160px;
+    margin: 0 auto;
+    }
+/*-------- Layout CSS------------*/
+
+/* ---button css----- */
+.btn {
+        display: inline-block;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: auto;
+        border-radius: 5px;
+        text-decoration: none;
+        padding: 15px 24px;
+        background-color: #473BF0;
+        color: #FFFFFF;
+}
+
+/* --------------END COMMON CSS---------------- */
+
+
+/* -----HEADER CSS----- */
+/* ---------MENU/NAVBAR SECTION----------- */
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../Images/Bitmap.png);
+    background-position: center;
+    background-size: cover;
+}
+.main-logo-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+.logo-menu-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo a{
+    text-decoration: none;
+    color: #161C2D;
+    font-family: "Rubik", sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+}
+.menu a{
+    font-size: 13px;
+    padding-left: 32px;
+    text-decoration: none;
+    color: #161C2D;
+    font-weight: bold;
+}
+.menu-btn{
+    display: none;
+}
+/* --------- #END MENU/NAVBAR SECTION----------- */
+
+.row {
+    margin: 30px auto;
+}
+.row-inner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
+.coloum-one{
+    width: 50%;
+    margin-left: 20px;
+    
+}
+.coloum-one h1{
+    font-size: 60px;
+    line-height: 65px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    font-family: "gilroy-bold";
+    margin-top: 18px;
+
+}
+.coloum-one-p {
+    color: rgb(91, 96, 108);
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+
+}
+.coloum-one-btn{
+    margin-top: 18px;
+}
+
+.coloum-two{
+    width: 50%;
+    /* background-image: url(/assets/Images/Picsart_24-02-12_19-54-04-273.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.coloum-image img{
+    width: 100%; 
+    max-width: 450px;
+    border-radius: 100%;   
+}
+.coloum-image{
+    text-align: right;
+    position: relative;
+}
+.coloum-image::before {
+    content: url(//assets/Images/round.png);
+    position: absolute;
+
+    
+}
+.coloum-image::after {
+    content: url(//assets/Images/waves.png);
+    position: absolute;
+    
+}
+.red-upper{
+    font-family: "gilroy-bold";
+    color: #F64B4B;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1.63px;
+    line-height: auto;
+    font-size: small;
+    font-weight: 700;
+}
+/* -----HEADER CSS----- */
+
+
+/* -------------RESPONSIVE CSS---------------- */
+/* ----- RESPONSIVE MENU SECTION ----- */
+@media screen and (max-width: 650px){
+    .header_inner.container{
+        padding: 0 5px;
+    }
+    .menu{
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: start;
+        background-color:#473bf0ba;
+        backdrop-filter: blur(5px);
+        width: 65%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 999;     
+    }
+    .menu a{
+        color: #FFFFFF;
+        padding-top: 30px;
+    }
+    .menu-btn{        
+        display: block;
+        right: 0;
+        margin: 20px 15px;
+        
+        
+    }
+    .menu-btn i{
+        font-size: 1.9em;    
+    }
+    .row-inner{
+        display: flex;
+        flex-direction: column;
+    }
+    .coloum-one {
+        width: 100%;
+    }
+    .coloum-one h1{
+        font-size: 51px;
+    }
+    .coloum-two {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .coloum-image {
+        text-align: center;
+    }
+    
+    .coloum-image img {
+        max-width: 350px;
+    }
+}
+
+/* -----ENDED RESPONSIVE MENU SECTION ----- */

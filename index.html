@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brainwave.io</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/1ce6f653f8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="header-wrapper">
+    <div class="header-inner container">
+      <div class="main-logo-menu">
+        <div class="logo-menu-section">
+          <div class="logo"><a href="#">Brainwave.io</a></div>
+         <div class="menu sidebar">
+          
+          <a href="#" class="menu-btn"><i class="fa-solid fa-xmark" onclick="hideSidebar()"></i></a>
+          
+          <a href="#">Homes</a>
+          <a href="#">Pages</a>
+          <a href="#">Support</a>
+          <a href="#">Contact</a>
+         </div>
+            
+        </div>
+        <div class="nav-button btn">
+          Get started a project
+        </div>
+        <div class="menu-btn">
+          <i class="fa-solid fa-bars" onclick="showSidebar()"></i>
+          
+        </div>
+      </div>
+    </div>
+      <!--MENU/NAVBAR ENDED -->
+      
+      <div class="row">
+        <div class="row-inner container">
+          <div class="coloum-one">
+            <p class="red-upper">Let’s shift your business</p>
+            <h1>Shift your business fast with Shade Pro.</h1>
+            <p class="coloum-one-p">With lots of unique blocks, you can easily build a page without coding. Build your next consultancy website within few minutes.</p>
+            <div class="coloum-one-btn btn"><a href="#"></a>Get started a project</div>
+          </div>
+          <div class="coloum-two">
+            <div class="coloum-image">
+              <img src="assets/Images/Picsart_24-02-12_19-54-04-273.jpg" alt="">
+            </div>
+            <!-- <img src="assets/Images/round.png" alt="" class="round">
+            <img src="assets/Images/waves.png" alt="" class="waves"> -->
+          </div>
+        </div>
+      </div>
+    
+
+  </header>
+  <script>
+    function showSidebar(){
+      const sidebar = document.querySelector(".sidebar")
+      sidebar.style.display = "flex"
+    }
+    function hideSidebar(){
+      const sidebar = document.querySelector(".sidebar")
+      sidebar.style.display = "none"
+    }
+    </script>
+</body>
+</html>
