@@ -178,12 +178,104 @@ header{
     font-size: small;
     font-weight: 700;
 }
-/* -----HEADER CSS----- */
+/* -----END HEADER CSS----- */
+/*---------------- START SERVICE SECTION--------------- */
+.service-section-wrapper{
+    margin-top: 100px;
+}
+.service-row-first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.row-first-h2 {
+    width: 521px;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -1.2px;
+    font-weight: 700;
+    font-family: "gilroy-bold";
+    color: #161C2D;
+    text-align: center;
+}
+.service-first-coloum{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #83FFA3;
+    border-radius: 5px;
+}
 
+.service-first-coloum-img{
+    display: block;
+    width: 100%;
+    max-width: 118px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+.first-coloum-h4{
+    font-size: 24px;
+    line-height: 34px;
+    font-family: "gilroy-bold";
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px 0;
+}
+.first-coloum-p{
+    width: 296px;
+    font-size: 17px;
+    line-height: 29px;
+    letter-spacing: -0.2px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.first-coloum-btn a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: "gilroy-bold";
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    
+}
+.first-coloum-btn{
+    margin-top: 20px;
+    padding: 10px 0;
+}
+.service-row-second {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    position: relative;
+}
+.second{
+    background-color:#473BF0;
+}
+.third{
+    background-color: #F64B4B;
+}
+.service-row-second::after{
+    content: url(/assets/Images/Group_101.png);
+    position: absolute;
+    top: 390px;
+    right: auto;
+    left: 1000px;
+    z-index: -1;
+}
 
 /* -------------RESPONSIVE CSS---------------- */
 /* ----- RESPONSIVE MENU SECTION ----- */
 @media screen and (max-width: 650px){
+    .nav-button{
+        display: none;
+    }
     .header_inner.container{
         padding: 0 5px;
     }
@@ -242,7 +334,7 @@ header{
     .coloum-image::before {
         content: url(/assets/Images/round.png);
         position: absolute;
-        top: 330px;
+        top: 259px;
         left: 0; 
         
     }
@@ -250,10 +342,25 @@ header{
     .coloum-image::after {
         content: url(/assets/Images/waves.png);
         position: absolute;
-        top: 320px;
+        top: 270px;
         right: 30px;
     
     }
+    .row-first-h2 {
+        width: 100%;
+        
+    }
+
+
+    .service-first-coloum{
+        width: 100%;
+    }
+    .service-row-second{
+        flex-direction: column;
+        gap: 20px;
+    }
 }
+
+
 
 /* -----ENDED RESPONSIVE MENU SECTION ----- */
