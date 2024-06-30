@@ -145,14 +145,14 @@ header{
     /* why there is a display-inline-block: cause .coloum-image is a block element & .coloum-image img{} also a block element. if you want to set another image in .coloum-image img{} then you have to set display inline-block otherwise top/right/bottom/left will work according to parent(.coloum-image) div it will not in direct .coloum-image img{}. It will create problem in responsiveness.   */  
 }
 .coloum-image::before {
-    content: url(/assets/Images/round.png);
+    content: url(./assets/Images/round.png);
     position: absolute;
     top: 320px;
     left: 0; 
 }
 
 .coloum-image::after {
-    content: url(/assets/Images/waves.png);
+    content: url(./assets/Images/waves.png);
     position: absolute;
     top: 330px;
     right: 30px;
@@ -262,7 +262,7 @@ header{
     background-color: #F64B4B;
 }
 .service-row-second::after{
-    content: url(/assets/Images/Group_101.png);
+    content: url(./assets/Images/Group_101.png);
     position: absolute;
     top: 390px;
     right: auto;
