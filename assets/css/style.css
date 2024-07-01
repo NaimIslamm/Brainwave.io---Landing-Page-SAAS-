@@ -262,7 +262,7 @@ header{
     background-color: #F64B4B;
 }
 .service-row-second::after{
-    content: url(/assets/Images/Group_101.png);
+    content: url(../Images/Group_101.png);
     position: absolute;
     top: 390px;
     right: auto;
@@ -400,6 +400,10 @@ header{
     .service-row-second{
         flex-direction: column;
         gap: 20px;
+    }
+    .service-row-second::after{
+        content:none;
+        
     }
     .review-row-first{
         flex-direction: column;
