@@ -347,6 +347,7 @@ header{
     .menu-btn i{
         font-size: 1.9em;    
     }
+    /* --------ended nav section----- */
     .row-inner{
         display: flex;
         flex-direction: column;
@@ -372,17 +373,17 @@ header{
         max-width: 450px;
     }
     .coloum-image::before {
-        content: url(/assets/Images/round.png);
+        content: url(../Images/round.png);
         position: absolute;
-        top: 259px;
+        top: 279px;
         left: 0; 
         
     }
     
     .coloum-image::after {
-        content: url(/assets/Images/waves.png);
+        content: url(../Images/waves.png);
         position: absolute;
-        top: 270px;
+        top: 300px;
         right: 30px;
     
     }
@@ -391,11 +392,20 @@ header{
         
     }
     .service-section-wrapper{
-        margin-top: 90px;
+        margin-top: 290px;
     }
 
     .service-first-coloum{
         width: 100%;
+    }
+    .first-coloum-h4{
+        font-size: 35px;
+    }
+    .first-coloum-p{
+        font-size: 23px;
+    }
+    .first-coloum-btn{
+        font-size: 38px;
     }
     .service-row-second{
         flex-direction: column;
