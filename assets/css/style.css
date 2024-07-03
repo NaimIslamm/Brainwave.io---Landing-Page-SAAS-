@@ -12,7 +12,11 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
 /* ----FONT UPLOAD ----*/
+
+
 /*------ RESET CSS -------*/
 *{
     margin: 0;
@@ -90,7 +94,7 @@ header{
 /* --------- #END MENU/NAVBAR SECTION----------- */
 
 .row {
-    margin: 30px auto;
+    margin: 90px auto;
 }
 .row-inner{
     width: 100%;
@@ -272,7 +276,7 @@ header{
 /* -------START REVIEW SECTION-------- */
 
 .review-section-wrapper{
-    margin-top: 80px;
+    margin-top: 120px;
   
 }
 .review-section-inner{
@@ -338,22 +342,23 @@ header{
     letter-spacing: -1.2px;
     margin-top: 20px;
 }
+.second-row{
+    display: flex;
+    justify-content: center; 
+    
+}
 .first-coloum{
     width: 50%;
-    margin-top: 80px;
+    margin-top: 100px;
 }
 .first-coloum img{
     width: 100%;
     max-width: 445px;
 }
 
-.second-row{
-    display: flex;
-    justify-content: center;  
-}
+
 .second-coloum{
     width: 50%;
-    
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -362,10 +367,13 @@ header{
     position: relative;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    
+    align-items: center;  
 }
-.row-one .image-two{
+.image-one{
+    width: 100%;
+    max-width: 318px;
+}
+.image-two{
     width: 100%;
     max-width: 160px;
 }
@@ -385,12 +393,12 @@ header{
     content: url(../Images/Fill_1.png);
     position: absolute;
     left: 252px;
-    bottom: 280px;
+    bottom: 270px;
     color: #473BF0;
 }
 /* -------------RESPONSIVE CSS---------------- */
 /* ----- RESPONSIVE MENU SECTION ----- */
-@media screen and (max-width: 650px){
+@media screen and (max-width: 650px) {
     .nav-button{
         display: none;
     }
@@ -485,6 +493,9 @@ header{
     .first-coloum-btn{
         font-size: 38px;
     }
+    .service-row-first {
+        padding: 0 15px;
+    }
     .service-row-second{
         flex-direction: column;
         gap: 20px;
@@ -521,9 +532,13 @@ header{
 .second-row {
     flex-direction: column;
     gap: 20px;
+    text-align: center;
 }
 
 .first-coloum {
+    width: 100%;
+}
+.first-coloum img{
     width: 100%;
 }
 
@@ -532,24 +547,25 @@ header{
 }
 
 .row-one {
+    
     flex-direction: column;
-    align-items: flex-start;
-    gap: 24px;
+    align-items: center;
+    gap: 20px;
     align-items: center;
 }
 
 .image-one {
     width: 100%;
+ 
 }
 
 .second-coloum-details {
     width: 100%;
     letter-spacing: 0;
-}
-
-.row-two {
     padding: 15px;
 }
+
+
 .parent-image-one::after{
     content: none;
 }
