@@ -269,15 +269,23 @@ header{
     left: 1000px;
     z-index: -1;
 }
+/* -------START REVIEW SECTION-------- */
+
 .review-section-wrapper{
     margin-top: 80px;
+  
+}
+.review-section-inner{
+    border-bottom: 1px solid grey;
+    padding: 0 20px;
 }
 .review-row-first{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
-    padding: 0 20px;
+    
+    
 }
 .review-row-details{
     width: 70%;
@@ -286,6 +294,7 @@ header{
     justify-content: space-between;
     align-items: flex-start;
     gap: 20px;
+   
 }
 .review-row-img {
     width: 30%;
@@ -309,7 +318,76 @@ header{
     font-size: 17px;
     line-height: 29px;
 }
+/* ------------REVIEW SECTION ENDED--------------- */
+/*---------------- STORY SECTION---------- */
+.story-section-wrapper{
+    margin-top: 130px;
+}
+.first-row{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
 
+.first-row-story {
+    width: 515px;
+    font-size: 36px;
+    font-family: "gilroy-bold";
+    text-align: left;
+    line-height: 48px;
+    letter-spacing: -1.2px;
+    margin-top: 20px;
+}
+.first-coloum{
+    width: 50%;
+    margin-top: 80px;
+}
+.first-coloum img{
+    width: 100%;
+    max-width: 445px;
+}
+
+.second-row{
+    display: flex;
+    justify-content: center;  
+}
+.second-coloum{
+    width: 50%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.row-one{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.row-one .image-two{
+    width: 100%;
+    max-width: 160px;
+}
+
+
+.second-coloum-details{
+    width: 490px;
+    font-size: 17px;
+    line-height: 28px;
+    letter-spacing: -0.2px;
+    font-family: "gilroy";
+    text-align: left
+    
+}
+
+.parent-image-one::after{
+    content: url(../Images/Fill_1.png);
+    position: absolute;
+    left: 252px;
+    bottom: 280px;
+    color: #473BF0;
+}
 /* -------------RESPONSIVE CSS---------------- */
 /* ----- RESPONSIVE MENU SECTION ----- */
 @media screen and (max-width: 650px){
@@ -347,7 +425,7 @@ header{
     .menu-btn i{
         font-size: 1.9em;    
     }
-    /* --------ended nav section----- */
+    /* -----ENDED RESPONSIVE MENU SECTION ----- */
     .row-inner{
         display: flex;
         flex-direction: column;
@@ -391,8 +469,8 @@ header{
         width: 100%;
         
     }
-    .service-section-wrapper{
-        margin-top: 290px;
+    .service-section-inner{
+        margin-top: 300px;
     }
 
     .service-first-coloum{
@@ -412,7 +490,7 @@ header{
         gap: 20px;
     }
     .service-row-second::after{
-        content:none;
+        content: none;
         
     }
     .review-row-first{
@@ -428,8 +506,52 @@ header{
     .review-text{
         width: 100%;
     }
+
+/*-------------- our story section----------- */
+.first-row {
+    padding: 0 20px;
 }
 
+.first-row-story {
+    font-size: 28px;
+    text-align: left;
+    width: 100%;
+}
 
+.second-row {
+    flex-direction: column;
+    gap: 20px;
+}
 
-/* -----ENDED RESPONSIVE MENU SECTION ----- */
+.first-coloum {
+    width: 100%;
+}
+
+.second-coloum {
+    width: 100%;
+}
+
+.row-one {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-items: center;
+}
+
+.image-one {
+    width: 100%;
+}
+
+.second-coloum-details {
+    width: 100%;
+    letter-spacing: 0;
+}
+
+.row-two {
+    padding: 15px;
+}
+.parent-image-one::after{
+    content: none;
+}
+
+}
