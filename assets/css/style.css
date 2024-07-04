@@ -377,6 +377,32 @@ header {
   bottom: 270px;
   color: #473bf0;
 }
+
+.third-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 80px;
+  text-align: center;
+}
+.coloum {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.coloum h3 {
+  font-size: 48px;
+  font-family: "gilroy-bold";
+  line-height: 58px;
+}
+.coloum p {
+  width: 314px;
+  font-size: 19px;
+  line-height: 32px;
+  height: auto;
+}
 /* -------------RESPONSIVE CSS---------------- */
 /* ----- RESPONSIVE MENU SECTION ----- */
 @media screen and (max-width: 650px) {
@@ -553,5 +579,13 @@ header {
 
   .parent-image-one::after {
     content: none;
+  }
+
+  .third-row {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .coloum {
+    width: 100%;
   }
 }
