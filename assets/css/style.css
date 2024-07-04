@@ -1,573 +1,557 @@
 /* ----FONT UPLOAD ----*/
 @font-face {
-    font-family: "gilroy";
-    src: url(../fonts/Gilroy-Regular.ttf);
-    src: url(../fonts/Gilroy-Regular.otf);
-    src: url(../fonts/Gilroy-Regular.woff);
-    src: url(../fonts/Gilroy-Regular.woff2);
+  font-family: "gilroy";
+  src: url(../fonts/Gilroy-Regular.ttf);
+  src: url(../fonts/Gilroy-Regular.otf);
+  src: url(../fonts/Gilroy-Regular.woff);
+  src: url(../fonts/Gilroy-Regular.woff2);
 }
 @font-face {
-    font-family: "gilroy-bold";
-    src: url(../fonts/Gilroy-Bold.ttf);
+  font-family: "gilroy-bold";
+  src: url(../fonts/Gilroy-Bold.ttf);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
 /* ----FONT UPLOAD ----*/
 
-
 /*------ RESET CSS -------*/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 /*---- RESET CSS---- */
 /* --------------COMMON CSS---------------- */
-body{
-    font-family: "gilroy";
+body {
+  font-family: "gilroy";
 }
 /* -----------Layout CSS --------*/
-.container{
-    max-width: 1160px;
-    margin: 0 auto;
-    }
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+}
 /*-------- Layout CSS------------*/
 
 /* ---button css----- */
 .btn {
-        display: inline-block;
-        text-align: center;
-        font-size: 17px;
-        font-weight: 600;
-        line-height: auto;
-        border-radius: 5px;
-        text-decoration: none;
-        padding: 13px 24px;
-        background-color: #473BF0;
-        color: #FFFFFF;
+  display: inline-block;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: auto;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 13px 24px;
+  background-color: #473bf0;
+  color: #ffffff;
 }
 
 /* --------------END COMMON CSS---------------- */
 
-
 /* -----HEADER CSS----- */
 /* ---------MENU/NAVBAR SECTION----------- */
-header{
-    width: 100%;
-    height: 100vh;
-    background-image: url(../Images/Bitmap.png);
-    background-position: center;
-    background-size: cover;
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../Images/Bitmap.png);
+  background-position: center;
+  background-size: cover;
 }
 .main-logo-menu {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 20px auto;
-    padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px auto;
+  padding: 0 10px;
 }
-.logo-menu-section{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
+.logo-menu-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.logo a{
-    text-decoration: none;
-    color: #161C2D;
-    font-family: "Rubik", sans-serif;
-    font-weight: 800;
-    font-size: 24px;
+.logo a {
+  text-decoration: none;
+  color: #161c2d;
+  font-family: "Rubik", sans-serif;
+  font-weight: 800;
+  font-size: 24px;
 }
-.menu a{
-    font-size: 15px;
-    padding-left: 32px;
-    text-decoration: none;
-    color: #161C2D;
-    font-weight: bold;
+.menu a {
+  font-size: 15px;
+  padding-left: 32px;
+  text-decoration: none;
+  color: #161c2d;
+  font-weight: bold;
 }
-.menu-btn{
-    display: none;
+.menu-btn {
+  display: none;
 }
 /* --------- #END MENU/NAVBAR SECTION----------- */
 
 .row {
-    margin: 90px auto;
+  margin: 90px auto;
 }
-.row-inner{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    padding: 0 15px;
-    
+.row-inner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
-.coloum-one{
-    width: 50%;
-    margin-left: 20px;
-    
+.coloum-one {
+  width: 50%;
+  margin-left: 20px;
 }
-.coloum-one h1{
-    font-size: 60px;
-    line-height: 65px;
-    font-weight: 700;
-    letter-spacing: -2px;
-    font-family: "gilroy-bold";
-    margin-top: 18px;
-
+.coloum-one h1 {
+  font-size: 60px;
+  line-height: 65px;
+  font-weight: 700;
+  letter-spacing: -2px;
+  font-family: "gilroy-bold";
+  margin-top: 18px;
 }
 .coloum-one-p {
-    color: rgb(91, 96, 108);
-    font-size: 19px;
-    line-height: 32px;
-    letter-spacing: -0.2px;
-
+  color: rgb(91, 96, 108);
+  font-size: 19px;
+  line-height: 32px;
+  letter-spacing: -0.2px;
 }
-.coloum-one-btn{
-    margin-top: 18px;
-}
-
-.coloum-two{
-    width: 50%;
-    text-align: right;
+.coloum-one-btn {
+  margin-top: 18px;
 }
 
-.coloum-image img{
-    width: 100%; 
-    max-width: 450px;
-    border-radius: 100%;
+.coloum-two {
+  width: 50%;
+  text-align: right;
 }
 
-.coloum-image{
+.coloum-image img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 100%;
+}
 
-    position: relative;
-    display: inline-block;
-    /* why there is a display-inline-block: cause .coloum-image is a block element & .coloum-image img{} also a block element. if you want to set another image in .coloum-image img{} then you have to set display inline-block otherwise top/right/bottom/left will work according to parent(.coloum-image) div it will not in direct .coloum-image img{}. It will create problem in responsiveness.   */  
+.coloum-image {
+  position: relative;
+  display: inline-block;
+  /* why there is a display-inline-block: cause .coloum-image is a block element & .coloum-image img{} also a block element. if you want to set another image in .coloum-image img{} then you have to set display inline-block otherwise top/right/bottom/left will work according to parent(.coloum-image) div it will not in direct .coloum-image img{}. It will create problem in responsiveness.   */
 }
 .coloum-image::before {
-    content: url(../Images/round.png);
-    position: absolute;
-    top: 320px;
-    left: 0; 
+  content: url(../Images/round.png);
+  position: absolute;
+  top: 320px;
+  left: 0;
 }
 
 .coloum-image::after {
-    content: url(../Images/waves.png);
-    position: absolute;
-    top: 330px;
-    right: 30px;
-
+  content: url(../Images/waves.png);
+  position: absolute;
+  top: 330px;
+  right: 30px;
 }
-.coloum-image-icon{
-    display: inline-block;
+.coloum-image-icon {
+  display: inline-block;
 }
 .coloum-image-icon::before {
-    content: url(../Images/Fill_1.png);
-    position: absolute;
-    top: 5px;
-    left: 30px;
-    z-index: -1;
+  content: url(../Images/Fill_1.png);
+  position: absolute;
+  top: 5px;
+  left: 30px;
+  z-index: -1;
 }
-.red-upper{
-    font-family: "gilroy-bold";
-    color: #F64B4B;
-    text-transform: uppercase;
-    font-size: 13px;
-    letter-spacing: 1.63px;
-    line-height: auto;
-    font-size: small;
-    font-weight: 700;
+.red-upper {
+  font-family: "gilroy-bold";
+  color: #f64b4b;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 1.63px;
+  line-height: auto;
+  font-size: small;
+  font-weight: 700;
 }
 /* -----END HEADER CSS----- */
 /*---------------- START SERVICE SECTION--------------- */
-.service-section-wrapper{
-    margin-top: 70px;
+.service-section-wrapper {
+  margin-top: 70px;
 }
-.service-row-first{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.service-row-first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .row-first-h2 {
-    width: 521px;
-    font-size: 36px;
-    line-height: 48px;
-    letter-spacing: -1.2px;
-    font-weight: 700;
-    font-family: "gilroy-bold";
-    color: #161C2D;
-    text-align: center;
+  width: 521px;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -1.2px;
+  font-weight: 700;
+  font-family: "gilroy-bold";
+  color: #161c2d;
+  text-align: center;
 }
-.service-first-coloum{
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #83FFA3;
-    border-radius: 5px;
+.service-first-coloum {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #83ffa3;
+  border-radius: 5px;
 }
 
-.service-first-coloum-img{
-    display: block;
-    width: 100%;
-    max-width: 118px;
-    margin: 0 auto;
-    padding: 40px 0;
+.service-first-coloum-img {
+  display: block;
+  width: 100%;
+  max-width: 118px;
+  margin: 0 auto;
+  padding: 40px 0;
 }
-.first-coloum-h4{
-    font-size: 24px;
-    line-height: 34px;
-    font-family: "gilroy-bold";
-    font-weight: bold;
-    letter-spacing: 0.5px;
-    text-align: center;
-    color: #FFFFFF;
-    padding: 10px 0;
+.first-coloum-h4 {
+  font-size: 24px;
+  line-height: 34px;
+  font-family: "gilroy-bold";
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #ffffff;
+  padding: 10px 0;
 }
-.first-coloum-p{
-    width: 296px;
-    font-size: 17px;
-    line-height: 29px;
-    letter-spacing: -0.2px;
-    text-align: center;
-    color: #FFFFFF;
+.first-coloum-p {
+  width: 296px;
+  font-size: 17px;
+  line-height: 29px;
+  letter-spacing: -0.2px;
+  text-align: center;
+  color: #ffffff;
 }
-.first-coloum-btn a{
-    text-decoration: none;
-    color: #FFFFFF;
-    font-size: 17px;
-    font-weight: bold;
-    font-family: "gilroy-bold";
-    line-height: 32px;
-    letter-spacing: -0.2px;
-    
+.first-coloum-btn a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: "gilroy-bold";
+  line-height: 32px;
+  letter-spacing: -0.2px;
 }
-.first-coloum-btn{
-    margin-top: 20px;
-    padding: 10px 0;
+.first-coloum-btn {
+  margin-top: 20px;
+  padding: 10px 0;
 }
 .service-row-second {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 50px;
-    position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+  position: relative;
 }
-.second{
-    background-color:#473BF0;
+.second {
+  background-color: #473bf0;
 }
-.third{
-    background-color: #F64B4B;
+.third {
+  background-color: #f64b4b;
 }
-.service-row-second::after{
-    content: url(../Images/Group_101.png);
-    position: absolute;
-    top: 390px;
-    right: auto;
-    left: 1000px;
-    z-index: -1;
+.service-row-second::after {
+  content: url(../Images/Group_101.png);
+  position: absolute;
+  top: 390px;
+  right: auto;
+  left: 1000px;
+  z-index: -1;
 }
 /* -------START REVIEW SECTION-------- */
 
-.review-section-wrapper{
-    margin-top: 120px;
-  
+.review-section-wrapper {
+  margin-top: 120px;
 }
-.review-section-inner{
-    border-bottom: 1px solid grey;
-    padding: 0 20px;
+.review-section-inner {
+  border-bottom: 1px solid grey;
+  padding: 0 20px;
 }
-.review-row-first{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    
-    
+.review-row-first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
-.review-row-details{
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 20px;
-   
+.review-row-details {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
 }
 .review-row-img {
-    width: 30%;
-    text-align: right;
+  width: 30%;
+  text-align: right;
 }
-.review-row-img img{
-    text-align: right;
-    width: 100%;
-    max-width: 164px;
-    border-radius: 100%;
+.review-row-img img {
+  text-align: right;
+  width: 100%;
+  max-width: 164px;
+  border-radius: 100%;
 }
-.review-text{
-    width: 735px;
-    font-size: 24px;
-    font-family: "gilroy-bold";
-    line-height: 34px;
+.review-text {
+  width: 735px;
+  font-size: 24px;
+  font-family: "gilroy-bold";
+  line-height: 34px;
 }
-.review-designation{
-    font-family: "gilroy-bold";
-    font-weight: 300;
-    font-size: 17px;
-    line-height: 29px;
+.review-designation {
+  font-family: "gilroy-bold";
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 29px;
 }
 /* ------------REVIEW SECTION ENDED--------------- */
 /*---------------- STORY SECTION---------- */
-.story-section-wrapper{
-    margin-top: 130px;
+.story-section-wrapper {
+  margin-top: 130px;
 }
-.first-row{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+.first-row {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .first-row-story {
-    width: 515px;
-    font-size: 36px;
-    font-family: "gilroy-bold";
-    text-align: left;
-    line-height: 48px;
-    letter-spacing: -1.2px;
-    margin-top: 20px;
+  width: 515px;
+  font-size: 36px;
+  font-family: "gilroy-bold";
+  text-align: left;
+  line-height: 48px;
+  letter-spacing: -1.2px;
+  margin-top: 20px;
 }
-.second-row{
-    display: flex;
-    justify-content: center; 
-    
+.second-row {
+  display: flex;
+  justify-content: center;
 }
-.first-coloum{
-    width: 50%;
-    margin-top: 100px;
+.first-coloum {
+  width: 50%;
+  margin-top: 100px;
 }
-.first-coloum img{
-    width: 100%;
-    max-width: 445px;
-}
-
-
-.second-coloum{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-.row-one{
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;  
-}
-.image-one{
-    width: 100%;
-    max-width: 318px;
-}
-.image-two{
-    width: 100%;
-    max-width: 160px;
+.first-coloum img {
+  width: 100%;
+  max-width: 445px;
 }
 
-
-.second-coloum-details{
-    width: 490px;
-    font-size: 17px;
-    line-height: 28px;
-    letter-spacing: -0.2px;
-    font-family: "gilroy";
-    text-align: left
-    
+.second-coloum {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.row-one {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.image-one {
+  width: 100%;
+  max-width: 318px;
+}
+.image-two {
+  width: 100%;
+  max-width: 160px;
 }
 
-.parent-image-one::after{
-    content: url(../Images/Fill_1.png);
-    position: absolute;
-    left: 252px;
-    bottom: 270px;
-    color: #473BF0;
+.second-coloum-details {
+  width: 490px;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: -0.2px;
+  font-family: "gilroy";
+  text-align: left;
+}
+
+.parent-image-one::after {
+  content: url(../Images/Fill_1.png);
+  position: absolute;
+  left: 252px;
+  bottom: 270px;
+  color: #473bf0;
 }
 /* -------------RESPONSIVE CSS---------------- */
 /* ----- RESPONSIVE MENU SECTION ----- */
 @media screen and (max-width: 650px) {
-    .nav-button{
-        display: none;
-    }
-    .header_inner.container{
-        padding: 0 5px;
-    }
-    .menu{
-        display: none;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: start;
-        background-color:#473bf0ba;
-        backdrop-filter: blur(5px);
-        width: 65%;
-        height: 100vh;
-        position: fixed;
-        top: 0;
-        right: 0;
-        z-index: 999;     
-    }
-    .menu a{
-        color: #FFFFFF;
-        padding-top: 30px;
-    }
-    .menu-btn{        
-        display: block;
-        right: 0;
-        margin: 20px 15px;
-        
-        
-    }
-    .menu-btn i{
-        font-size: 1.9em;    
-    }
-    /* -----ENDED RESPONSIVE MENU SECTION ----- */
-    .row-inner{
-        display: flex;
-        flex-direction: column;
-    }
-    .coloum-one {
-        width: 100%;
-    }
-    .coloum-one h1{
-        font-size: 51px;
-    }
-    .coloum-two {
-        width: 100%;
-        text-align: center;
-        margin-top: 30px;
-    }
-    
-    .coloum-image {
-        text-align: center;
-        
-    }
-    
-    .coloum-image img {
-        max-width: 450px;
-    }
-    .coloum-image::before {
-        content: url(../Images/round.png);
-        position: absolute;
-        top: 279px;
-        left: 0; 
-        
-    }
-    
-    .coloum-image::after {
-        content: url(../Images/waves.png);
-        position: absolute;
-        top: 300px;
-        right: 30px;
-    
-    }
-    .row-first-h2 {
-        width: 100%;
-        
-    }
-    .service-section-inner{
-        margin-top: 300px;
-    }
-
-    .service-first-coloum{
-        width: 100%;
-    }
-    .first-coloum-h4{
-        font-size: 35px;
-    }
-    .first-coloum-p{
-        font-size: 23px;
-    }
-    .first-coloum-btn{
-        font-size: 38px;
-    }
-    .service-row-first {
-        padding: 0 15px;
-    }
-    .service-row-second{
-        flex-direction: column;
-        gap: 20px;
-    }
-    .service-row-second::after{
-        content: none;
-        
-    }
-    .review-row-first{
-        flex-direction: column;
-    }
-    .review-row-details{
-        width: 100%;
-    }
-    .review-row-img{
-        width: 100%;
-        text-align: center;
-    }
-    .review-text{
-        width: 100%;
-    }
-
-/*-------------- our story section----------- */
-.first-row {
+  .nav-button {
+    display: none;
+  }
+  .header_inner.container {
+    padding: 0 5px;
+  }
+  .menu {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    background-color: #473bf0ba;
+    backdrop-filter: blur(5px);
+    width: 65%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999;
+  }
+  .menu a {
+    color: #ffffff;
+    padding-top: 30px;
+  }
+  .menu-btn {
+    display: block;
+    right: 0;
+    margin: 20px 15px;
+  }
+  .menu-btn i {
+    font-size: 1.9em;
+  }
+  /* -----ENDED RESPONSIVE MENU SECTION ----- */
+  .row-inner {
+    display: flex;
+    flex-direction: column;
     padding: 0 20px;
-}
+  }
+  .coloum-one {
+    width: 100%;
+  }
+  .coloum-one h1 {
+    font-size: 51px;
+  }
+  .coloum-one-p {
+    letter-spacing: 0;
+  }
+  .coloum-two {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
 
-.first-row-story {
+  .coloum-image {
+    text-align: center;
+  }
+
+  .coloum-image img {
+    max-width: 450px;
+  }
+  .coloum-image::before {
+    content: url(../Images/round.png);
+    position: absolute;
+    top: 279px;
+    left: 0;
+  }
+
+  .coloum-image::after {
+    content: url(../Images/waves.png);
+    position: absolute;
+    top: 300px;
+    right: 30px;
+  }
+  .row-first-h2 {
+    width: 100%;
+  }
+  /* --------------STARTED SERVICE SECTION-------------- */
+  .service-section-wrapper {
+    padding: 0 20px;
+  }
+  .service-section-inner {
+    margin-top: 300px;
+  }
+
+  .service-first-coloum {
+    width: 100%;
+  }
+  .first-coloum-h4 {
+    font-size: 35px;
+  }
+  .first-coloum-p {
+    font-size: 23px;
+  }
+  .first-coloum-btn {
+    font-size: 38px;
+  }
+
+  .service-row-second {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .service-row-second::after {
+    content: none;
+  }
+  /* --------------ENDED SERVICE SECTION-------------- */
+
+  /* --------REVIEW SECTION START--------- */
+  .review-row-first {
+    flex-direction: column;
+  }
+  .review-row-details {
+    width: 100%;
+  }
+  .review-row-img {
+    width: 100%;
+    text-align: center;
+  }
+  .review-text {
+    width: 100%;
+  }
+  /* -------- ENDED REVIEW SECTION START--------- */
+
+  /*-------------- our story section----------- */
+  .story-section-inner.container {
+    padding: 0 20px;
+  }
+  .first-row-story {
     font-size: 28px;
     text-align: left;
     width: 100%;
-}
+  }
 
-.second-row {
+  .second-row {
     flex-direction: column;
     gap: 20px;
     text-align: center;
-}
+  }
 
-.first-coloum {
+  .first-coloum {
     width: 100%;
-}
-.first-coloum img{
+  }
+  .first-coloum img {
     width: 100%;
-}
+  }
 
-.second-coloum {
+  .second-coloum {
     width: 100%;
-}
+  }
 
-.row-one {
-    
+  .row-one {
     flex-direction: column;
     align-items: center;
     gap: 20px;
     align-items: center;
-}
+  }
 
-.image-one {
-    width: 100%;
- 
-}
+  .image-one {
+    max-width: 100%;
+    width: 1000px;
+  }
+  .image-two {
+    width: 1000px;
+    max-width: 100%;
+  }
 
-.second-coloum-details {
+  .second-coloum-details {
     width: 100%;
     letter-spacing: 0;
     padding: 15px;
-}
+  }
 
-
-.parent-image-one::after{
+  .parent-image-one::after {
     content: none;
-}
-
+  }
 }
