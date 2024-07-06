@@ -403,7 +403,69 @@ header {
   line-height: 32px;
   height: auto;
 }
+
+/*----------------ENDED STORY SECTION---------- */
+
+/* ---------STARTED WHY US SECTION--------- */
+
+.why-us-section-wrapper {
+  margin-top: 140px;
+}
+.why-us-section-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+.why-us-first-row {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.why-us-heading {
+  width: 521px;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  font-family: "gilroy-bold";
+}
+.why-us-second-row {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  gap: 30px;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.box img {
+  width: 100%;
+}
+.details-row-first {
+  width: 260px;
+  font-size: 21px;
+  color: #161c2d;
+  line-height: 32px;
+  font-family: "gilroy-bold";
+}
+.details-row-second {
+  width: 300px;
+  font-size: 17px;
+  font-family: "gilroy";
+  line-height: 29px;
+  font-weight: 100;
+}
+
 /* -------------RESPONSIVE CSS---------------- */
+
 /* ----- RESPONSIVE MENU SECTION ----- */
 @media screen and (max-width: 650px) {
   .nav-button {
@@ -528,14 +590,18 @@ header {
   }
   /* -------- ENDED REVIEW SECTION START--------- */
 
-  /*-------------- our story section----------- */
-  .story-section-inner.container {
+  /*-------------- STARTED our story section----------- */
+  .story-section-inner {
     padding: 0 20px;
   }
+  .first-row {
+    text-align: center;
+  }
   .first-row-story {
-    font-size: 28px;
+    font-size: 25px;
     text-align: left;
     width: 100%;
+    text-align: center;
   }
 
   .second-row {
@@ -587,5 +653,18 @@ header {
   }
   .coloum {
     width: 100%;
+  }
+  /* ------ STARTED  WHY US SECTION------- */
+
+  .why-us-heading {
+    width: 100%;
+    font-size: 25px;
+  }
+  .why-us-second-row {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .why-us-section-inner {
+    padding: 0 20px;
   }
 }
