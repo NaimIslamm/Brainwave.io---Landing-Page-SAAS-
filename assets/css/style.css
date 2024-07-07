@@ -520,6 +520,54 @@ header {
 .masonry-box h5 {
   margin: 10px 0;
 }
+/* -------ENDED CASE SECTION------------- */
+/* ------STARTED TESTIMONIAL SECTION---------- */
+
+.tastimonial-section-wrapper {
+  background-image: url(/assets/Images/Group\ 47.png);
+  background-color: #473bf0;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.testimonial-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.tst {
+  color: #83ffa3;
+  font-size: 13px;
+  letter-spacing: 1.63px;
+  font-family: "gilroy-bold";
+  margin-top: 100px;
+}
+.testimonial-heading {
+  max-width: 655px;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  letter-spacing: -1.2px;
+  color: #fff;
+  font-family: "gilroy-bold";
+  margin-top: 30px;
+}
+.testimonial-image {
+  margin-top: 20px;
+}
+.person-name {
+  color: #fff;
+  font-size: 17px;
+  font-family: "gilroy-bold";
+  margin-top: 20px;
+}
+.person-desgnation {
+  color: #928af6;
+  font-family: "gilroy";
+  font-size: 15px;
+  margin-bottom: 80px;
+}
 
 /* -------------RESPONSIVE CSS---------------- */
 
@@ -604,9 +652,6 @@ header {
   /* --------------STARTED SERVICE SECTION-------------- */
   .service-section-wrapper {
     padding: 0 20px;
-  }
-  .service-section-inner {
-    /* margin-top: 300px; */
   }
 
   .service-first-coloum {
