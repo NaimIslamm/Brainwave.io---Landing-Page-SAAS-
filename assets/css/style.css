@@ -568,7 +568,68 @@ header {
   font-size: 15px;
   margin-bottom: 80px;
 }
-
+/* -----ENDED TESTIMONIAL SECTION------ */
+/* -------STARTED FOOTER SECTION------------- */
+.footer-section-wrapper {
+  background-color: #161c2d;
+}
+.footer-section-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  justify-content: center;
+  align-items: stretch;
+  padding: 30px;
+}
+.footer-1st-coloum {
+  display: grid;
+  grid-template-columns: column;
+  justify-content: center;
+  align-items: left;
+  gap: 15px;
+  color: #fff;
+}
+.fst-coloum-icons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 142px;
+}
+.footer-2nd-coloum {
+  display: grid;
+  grid-template-columns: column;
+  justify-content: center;
+  gap: 15px;
+}
+.fst-row-company-details {
+  display: grid;
+  grid-template-columns: column;
+  justify-content: start;
+  align-items: center;
+  gap: 15px;
+}
+.fst-row-company-details a {
+  text-decoration: none;
+  font-size: 17px;
+  font-family: "gilroy";
+  color: #fff;
+  transition: all 0.4s ease;
+}
+.fst-row-company-details a:hover {
+  transform: translateY(-3px) translateX(-5px);
+}
+.fst-row-company {
+  font-size: 15px;
+  color: #fff;
+}
+.fst-coloum-heading {
+  max-width: 179px;
+  font-size: 28px;
+  font-family: "Rubik", sans-serif;
+}
+.fst-coloum-p {
+  max-width: 274px;
+  font-size: 15px;
+  font-family: "gilroy";
+}
 /* -------------RESPONSIVE CSS---------------- */
 
 /* ----- RESPONSIVE MENU SECTION ----- */
@@ -768,5 +829,15 @@ header {
 
   .why-us-section-inner {
     padding: 0 20px;
+  }
+
+  /* Started Footer Section */
+  .footer-section-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+  .footer-2nd-coloum {
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 30px;
   }
 }
