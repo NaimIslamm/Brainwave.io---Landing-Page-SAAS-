@@ -296,7 +296,7 @@ header {
   border-radius: 100%;
 }
 .review-text {
-  width: 735px;
+  max-width: 735px;
   font-size: 24px;
   font-family: "gilroy-bold";
   line-height: 34px;
@@ -319,7 +319,7 @@ header {
 }
 
 .first-row-story {
-  width: 515px;
+  max-width: 515px;
   font-size: 36px;
   font-family: "gilroy-bold";
   text-align: left;
@@ -362,7 +362,7 @@ header {
 }
 
 .second-coloum-details {
-  width: 490px;
+  max-width: 490px;
   font-size: 17px;
   line-height: 28px;
   letter-spacing: -0.2px;
@@ -398,7 +398,7 @@ header {
   line-height: 58px;
 }
 .coloum p {
-  width: 314px;
+  max-width: 314px;
   font-size: 19px;
   line-height: 32px;
   height: auto;
@@ -417,6 +417,7 @@ header {
   justify-content: center;
   align-items: center;
   gap: 80px;
+  padding: 0 20px;
 }
 .why-us-first-row {
   width: 100%;
@@ -439,16 +440,17 @@ header {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
-  row-gap: 30px;
+  gap: 30px;
 }
 .box {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
-.box img {
-  width: 100%;
+.icon {
+  text-align: right;
 }
+
 .details-row-first {
   width: 260px;
   font-size: 21px;
@@ -457,16 +459,16 @@ header {
   font-family: "gilroy-bold";
 }
 .details-row-second {
-  width: 300px;
+  max-width: 300px;
   font-size: 17px;
   font-family: "gilroy";
   line-height: 29px;
   font-weight: 100;
 }
 .icon-with-details {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 5px;
 }
 /* --------STARTED CASE SECTION---------- */
 
@@ -578,7 +580,7 @@ header {
   grid-template-columns: repeat(auto-fit, minmax(200px, auto));
   justify-content: center;
   align-items: stretch;
-  padding: 30px;
+  padding: 50px;
 }
 .footer-1st-coloum {
   display: grid;
@@ -826,11 +828,16 @@ header {
   .why-us-second-row {
     grid-template-columns: repeat(1, 1fr);
   }
-
-  .why-us-section-inner {
-    padding: 0 20px;
+  .box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
   }
-
+  .icon-with-details {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
   /* Started Footer Section */
   .footer-section-container {
     grid-template-columns: repeat(1, 1fr);
