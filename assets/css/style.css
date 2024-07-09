@@ -58,12 +58,14 @@ header {
   background-position: center;
   background-size: cover;
 }
+.header-inner {
+  padding: 0 20px;
+}
 .main-logo-menu {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin: 20px auto;
-  padding: 0 10px;
 }
 .logo-menu-section {
   display: flex;
@@ -98,7 +100,6 @@ header {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  padding: 0 15px;
 }
 
 .coloum-one {
@@ -481,6 +482,7 @@ header {
   justify-content: center;
   align-items: center;
   gap: 80px;
+  padding: 0 20px;
 }
 .case-first-row {
   width: 100%;
@@ -501,14 +503,14 @@ header {
 .case-second-row {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 10px; /* Adjust the gap as needed */
+  gap: 20px; /* Adjust the gap as needed */
 }
 
 .masonry-box {
   background: #fff;
   padding: 10px;
   box-sizing: border-box;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.217);
   border-radius: 5px;
 }
 
