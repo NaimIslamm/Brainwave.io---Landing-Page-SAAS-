@@ -582,7 +582,7 @@ header {
   grid-template-columns: repeat(auto-fit, minmax(200px, auto));
   justify-content: center;
   align-items: stretch;
-  padding: 50px;
+  padding: 40px;
 }
 .footer-1st-coloum {
   display: grid;
@@ -598,16 +598,17 @@ header {
   max-width: 142px;
 }
 .footer-2nd-coloum {
-  display: grid;
-  grid-template-columns: column;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: stretch;
   gap: 15px;
 }
 .fst-row-company-details {
-  display: grid;
-  grid-template-columns: column;
-  justify-content: start;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
   gap: 15px;
 }
 .fst-row-company-details a {
@@ -633,6 +634,18 @@ header {
   max-width: 274px;
   font-size: 15px;
   font-family: "gilroy";
+}
+.maker a {
+  color: rgba(245, 245, 245, 0.511);
+  text-align: center;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  transition: 0.7s;
+}
+.maker:hover a {
+  color: #928af6;
+  transform: translateY(-15px) translateX(-15px);
 }
 /* -------------RESPONSIVE CSS---------------- */
 
@@ -843,6 +856,8 @@ header {
   /* Started Footer Section */
   .footer-section-container {
     grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    text-align: left;
     gap: 30px;
   }
   .footer-2nd-coloum {
